@@ -1,13 +1,13 @@
 :root {
-    --colBck: #121212;
-    --col0: #919191;
-    --col1: #5f5f5f;
-    --col2: #4b4b4b;
-    --col3: #373737;
-    --col4: #232323;
-    --col-blue: #2c86fe;
-    --col-blue-light1: #2772d8;
-    --darkmode-bck: #160429
+    --colBck: #267a71;
+    --col0: #065e55;
+    --col1: #194a45;
+    --col2: #267a71;
+    --col3: #267a71;
+    --col4: #267a71;
+    --col-blue: #065e55;
+    --col-blue-light1: #267a71;
+    --darkmode-bck: #160120
 }
 
 .darkmode ::-webkit-scrollbar {
@@ -15,15 +15,15 @@
 }
 
 .darkmode ::-webkit-scrollbar-track {
-    background: #0d021f
+    background: #115849
 }
 
 .darkmode ::-webkit-scrollbar-thumb {
-    background: #1a0044
+    background: #207260
 }
 
 .darkmode ::-webkit-scrollbar-thumb:hover {
-    background: #666
+    background: #217f6a
 }
 
 @font-face {
@@ -434,6 +434,11 @@ body.miniPlayer #lock-pause .bt .bck {
     transform: scale(1.2);
     -webkit-animation: j 2s cubic-bezier(.23, 1, .32, 1) 0s forwards;
     animation: j 2s cubic-bezier(.23, 1, .32, 1) 0s forwards;
+
+
+
+
+
     pointer-events: none
 }
 
@@ -465,17 +470,17 @@ body.miniPlayer #lock-pause .bt .bck {
     top: 110px;
     left: 50%;
     width: 500px;
-    margin-left: -250px;
+    margin-left: -200px;
     height: 108px;
     -webkit-transform: translateY(0);
     transform: translateY(0);
     pointer-events: none;
-    background-image: url(../img/title.svg);
+    background-image: url(../img/title.png);
     background-repeat: no-repeat
 }
 
 .darkmode #page-splash .centered #sp-title {
-    background-image: url(../img/title-darkmode.svg)
+    background-image: url(../img/title-darkmode.png)
 }
 
 #page-splash .centered #sp-baseline {
@@ -515,11 +520,11 @@ body.miniPlayer #lock-pause .bt .bck {
 
 #page-splash .centered #sp-headphone {
     position: absolute;
-    top: 190px;
+    top: 200px;
     left: 50%;
-    width: 155px;
-    height: 185px;
-    margin-left: -82px
+    width: 126px;
+    height: 150px;
+    margin-left: -63px
 }
 
 #page-splash .centered #sp-select {
@@ -936,7 +941,7 @@ body.miniPlayer #lock-pause .bt .bck {
 }
 
 #sp-select .icon#icon1 .bul {
-    background-color: #4f1c7f
+    background-color: #71217f
 }
 
 #sp-select .icon#icon2 .bul {
@@ -1043,7 +1048,7 @@ body.miniPlayer #lock-pause .bt .bck {
     top: 4px;
     left: 50%;
     height: 13px;
-    width: 163px;
+    width: 150px;
     margin-left: -75px;
     opacity: 0;
     background-size: 100%
@@ -3479,12 +3484,12 @@ body:not(.fluid) #box-top.random #box-bt2 #box-bt2-bck {
 }
 
 .bt.youtube.color .bck {
-    background-color: #d20a0a
+    background-color: #ff0000
 }
 
 .bt.youtube.color:active .bck,
 .mouseEvent .bt.youtube.color:hover .bck {
-    background-color: #960000
+    background-color: #ff0000
 }
 
 .bt.tumblr.color .bck {
@@ -3542,12 +3547,12 @@ body:not(.fluid) #box-top.random #box-bt2 #box-bt2-bck {
 }
 
 .bt.youtube.color .txt {
-    color: #d20a0a
+    color: #ff0000
 }
 
 .bt.youtube.color:active .txt,
-.mouseEvent .bt.youtube.color:hover .txt {
-    color: #960000
+.mouseEvent .bt..color:hover .txt {
+    color: #ff0000
 }
 
 .bt.tumblr.color .txt {
@@ -4779,7 +4784,7 @@ video::-webkit-media-controls {
 #game #box-bottom #box-picto .picto .scale {
     width: 68px;
     height: 68px;
-    background-size: 1360px 136px;
+    background-size: 1428px 136px;
     background-repeat: no-repeat;
     border-radius: 14px;
     transition: opacity .4s ease-out;
@@ -5571,13 +5576,13 @@ video::-webkit-media-controls {
     display: inline-block;
     width: 370px;
     height: 80px;
-    margin-left: 50px;
+    margin-left: 0px;
     pointer-events: none;
-    background-image: url(../img/title.svg)
+    background-image: url(../img/title.png)
 }
 
 .darkmode .pop#pop-credit .container .logo {
-    background-image: url(../img/title-darkmode.svg)
+    background-image: url(../img/title-darkmode.png)
 }
 
 .pop#pop-credit .container #copy {
